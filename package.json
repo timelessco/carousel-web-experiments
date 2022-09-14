@@ -1,18 +1,18 @@
 {
-  "name": "vite-tailwind-starter",
-  "description": "NoJS Vite + Tailwind CSS Starter",
+  "name": "sliders",
+  "description": "Scroll snap vs Embla carousel",
   "version": "0.0.0",
   "keywords": [
-    "template",
-    "scaffold",
     "tailwind",
     "tailwindcss",
     "tailwind-css",
     "vite",
     "vitejs",
-    "vite-template",
-    "vitejs-temaplate",
-    "vite-tailwind"
+    "vite-tailwind",
+    "carousel",
+    "slider",
+    "embla",
+    "scroll-snap"
   ],
   "type": "module",
   "scripts": {
