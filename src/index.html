@@ -8,7 +8,7 @@
   </head>
 
   <body
-    class="font-inter text-base font-normal m-0 flex h-full flex-col justify-center overflow-hidden xl:max-w-[1280px] mx-auto"
+    class="font-inter text-base font-normal py-16 flex flex-col justify-center xl:max-w-[1280px] mx-auto overflow-x-hidden"
   >
     <!-- =========================================================================
     Scroll Snap Slider
@@ -52,7 +52,7 @@
         </button>
         <div role="presentation" class="relative w-full sm:overflow-hidden">
           <ul
-            class="scroll-snap-slider [--gap:16px] sm:[--gap:22px] gap-[var(--gap)] select-none [-webkit-tap-highlight-color:transparent]"
+            class="scroll-snap-slider js [--gap:16px] sm:[--gap:22px] gap-[var(--gap)] select-none [-webkit-tap-highlight-color:transparent]"
           >
             <li
               class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
@@ -184,6 +184,143 @@
             ></path>
           </svg>
         </button>
+      </div>
+    </section>
+
+    <!-- =========================================================================
+    Scroll Snap Slider(No JS)
+    ========================================================================== -->
+    <section
+      aria-labelledby="heading"
+      class="mt-8 flex flex-col justify-center items-center px-4 sm:px-6 lg:px-8 overflow-hidden sm:overflow-visible"
+    >
+      <div
+        role="presentation"
+        class="flex flex-row flex-nowrap items-center w-full"
+      >
+        <h2
+          id="heading"
+          class="text-[#ECB03F] font-[658] text-sm sm:text-base leading-[102%] tracking-[0.17em]sm:tracking-[0.2em] uppercase shrink-0 pr-5"
+        >
+          Scroll Snap Slider (No JS)
+        </h2>
+        <hr class="border-[#ECB03F] w-full hidden sm:block" />
+      </div>
+      <div role="presentation" class="relative mt-4 sm:mt-6 w-full">
+        <div role="presentation" class="relative w-full sm:overflow-hidden">
+          <ul
+            class="scroll-snap-slider [--gap:16px] sm:[--gap:22px] gap-[var(--gap)] select-none [-webkit-tap-highlight-color:transparent]"
+          >
+            <li
+              class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
+            >
+              <div role="presentation" class="relative w-full">
+                <div role="presentation" class="aspect-ratio"></div>
+                <img
+                  src="/images/1-HACKS-S2-KEYART-IMAGE.jpeg"
+                  alt="Hacks"
+                  class="absolute inset-0 w-full h-full object-cover overflow-hidden text-transparent"
+                />
+              </div>
+            </li>
+            <li
+              class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
+            >
+              <div role="presentation" class="relative w-full">
+                <div role="presentation" class="aspect-ratio"></div>
+                <img
+                  src="/images/2-HARLEM-KEYART-IMAGE.jpeg"
+                  alt="Harlem"
+                  class="absolute inset-0 w-full h-full object-cover overflow-hidden text-transparent"
+                />
+              </div>
+            </li>
+            <li
+              class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
+            >
+              <div role="presentation" class="relative w-full">
+                <div role="presentation" class="aspect-ratio"></div>
+                <img
+                  src="/images/3-GIRLS5EVA-S2-KEYART-IMAGE.jpeg"
+                  alt="Girls5eva"
+                  class="absolute inset-0 w-full h-full object-cover overflow-hidden text-transparent"
+                />
+              </div>
+            </li>
+            <li
+              class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
+            >
+              <div role="presentation" class="relative w-full">
+                <div role="presentation" class="aspect-ratio"></div>
+                <img
+                  src="/images/4-WE-ARE-LADY-PARTS-KEYART-IMAGE.jpeg"
+                  alt="We Are Lady Parts"
+                  class="absolute inset-0 w-full h-full object-cover overflow-hidden text-transparent"
+                />
+              </div>
+            </li>
+            <li
+              class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
+            >
+              <div role="presentation" class="relative w-full">
+                <div role="presentation" class="aspect-ratio"></div>
+                <img
+                  src="/images/5-RUSSIAN-DOLL-S2-KEYART-IMAGE.jpeg"
+                  alt="Russian Doll"
+                  class="absolute inset-0 w-full h-full object-cover overflow-hidden text-transparent"
+                />
+              </div>
+            </li>
+            <li
+              class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
+            >
+              <div role="presentation" class="relative w-full">
+                <div role="presentation" class="aspect-ratio"></div>
+                <img
+                  src="/images/6-KILLING-IT-KEYART-IMAGE.jpeg"
+                  alt="Killing It"
+                  class="absolute inset-0 w-full h-full object-cover overflow-hidden text-transparent"
+                />
+              </div>
+            </li>
+            <li
+              class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
+            >
+              <div role="presentation" class="relative w-full">
+                <div role="presentation" class="aspect-ratio"></div>
+                <img
+                  src="/images/7-AMERICAN-AUTO-KEYART-IMAGE.jpeg"
+                  alt="American Auto"
+                  class="absolute inset-0 w-full h-full object-cover overflow-hidden text-transparent"
+                />
+              </div>
+            </li>
+            <li
+              class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
+            >
+              <div role="presentation" class="relative w-full">
+                <div role="presentation" class="aspect-ratio"></div>
+                <img
+                  src="/images/17-SCHMIGADOON!-KEYART-IMAGE.jpeg"
+                  alt="Schmigadoon!"
+                  class="absolute inset-0 w-full h-full object-cover overflow-hidden text-transparent"
+                />
+              </div>
+            </li>
+            <li
+              class="scroll-snap-slide relative shrink-0 w-[calc(40%-var(--gap)*2/2.5)] sm:w-[calc(33.33%-var(--gap)*2/3)] md:w-[calc(25%-var(--gap)*3/4)] lg:w-[calc(20%-var(--gap)*4/5)] xl:w-[calc(16.66%-var(--gap)*5/6)]"
+            >
+              <div role="presentation" class="relative w-full">
+                <div role="presentation" class="aspect-ratio"></div>
+                <img
+                  src="/images/8-BROOKLYN-NINE-NINE-KEYART-IMAGE.jpeg"
+                  alt="Brooklyn Nine-Nine"
+                  class="absolute inset-0 w-full h-full object-cover overflow-hidden text-transparent"
+                />
+              </div>
+            </li>
+          </ul>
+        </div>
       </div>
     </section>
 

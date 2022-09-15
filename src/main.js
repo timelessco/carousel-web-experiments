@@ -14,7 +14,7 @@ import {
   Scroll Snap Slider
   ========================================================================== */
 
-const sliderElement = document.querySelector(".scroll-snap-slider");
+const sliderElement = document.querySelector(".scroll-snap-slider.js");
 const slider = new ScrollSnapSlider(sliderElement, true, [
   new ScrollSnapDraggable(50),
 ]);
@@ -32,7 +32,7 @@ const updateArrows = function () {
   next.disabled = isLast ? true : false;
 };
 
-prev.addEventListener("click", function (e) {
+prev.addEventListener("click", function () {
   slider.slideTo(slider.slide - 1);
 });
 
@@ -71,6 +71,6 @@ const disablePrevAndNextBtns = disablePrevNextBtns(prevBtn, nextBtn, embla);
 embla.on("select", disablePrevAndNextBtns);
 embla.on("init", disablePrevAndNextBtns);
 
-window.addEventListener("load", (event) => {
+window.addEventListener("load", () => {
   embla.reInit();
 });
