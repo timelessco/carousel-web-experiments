@@ -71,4 +71,4 @@ embla.on("init", disablePrevAndNextBtns);
 
 setTimeout(() => {
   embla.reInit();
-}, 100);
+}, 1000);
