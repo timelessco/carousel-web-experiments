@@ -32,13 +32,15 @@ const updateArrows = function () {
   next.disabled = isLast ? true : false;
 };
 
-prev.addEventListener("click", function () {
+prev.addEventListener("click", function (e) {
   slider.slideTo(slider.slide - 1);
 });
 
 next.addEventListener("click", function () {
   slider.slideTo(slider.slide + 1);
 });
+
+updateArrows();
 
 slider.addEventListener("slide-pass", updateArrows);
 slider.addEventListener("slide-stop", updateArrows);
@@ -69,6 +71,6 @@ const disablePrevAndNextBtns = disablePrevNextBtns(prevBtn, nextBtn, embla);
 embla.on("select", disablePrevAndNextBtns);
 embla.on("init", disablePrevAndNextBtns);
 
-setTimeout(() => {
+window.addEventListener("load", (event) => {
   embla.reInit();
-}, 1000);
+});
