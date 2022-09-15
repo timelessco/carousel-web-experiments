@@ -57,10 +57,7 @@ const options = {
   slidesToScroll: 1,
   skipSnaps: true,
   containScroll: "trimSnaps",
-  dragFree: true,
-  breakpoints: {
-    "(min-width: 768px)": { dragFree: false },
-  },
+  dragFree: false,
 };
 
 const embla = EmblaCarousel(emblaNode, options, [ClassNames()]);
