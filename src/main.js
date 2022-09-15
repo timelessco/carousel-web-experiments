@@ -61,10 +61,14 @@ const options = {
   },
 };
 
-const embla = EmblaCarousel(emblaNode, options, [ClassNames(options)]);
+const embla = EmblaCarousel(emblaNode, options, [ClassNames()]);
 
 setupPrevNextBtns(prevBtn, nextBtn, embla);
 const disablePrevAndNextBtns = disablePrevNextBtns(prevBtn, nextBtn, embla);
 
 embla.on("select", disablePrevAndNextBtns);
 embla.on("init", disablePrevAndNextBtns);
+
+setTimeout(() => {
+  embla.reInit();
+}, 100);

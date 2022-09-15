@@ -18,6 +18,7 @@
     font-family: "Inter var", sans-serif;
   }
 }
+
 .is-draggable {
   cursor: move;
   cursor: grab;

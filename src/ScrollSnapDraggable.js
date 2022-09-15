@@ -89,8 +89,8 @@ export class ScrollSnapDraggable extends ScrollSnapPlugin {
 
     this.startX = this.lastX = event.clientX;
     this.element.style.scrollBehavior = "auto";
-    // this.element.style.scrollSnapStop = "normal";
-    // this.element.style.scrollSnapType = "none";
+    this.element.style.scrollSnapStop = "normal";
+    this.element.style.scrollSnapType = "none";
     this.element.classList.add("is-dragging");
 
     const autoplay = this.slider.plugins.get("ScrollSnapAutoplay");

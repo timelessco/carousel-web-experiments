@@ -4,9 +4,10 @@ export default defineConfig({
   server: {
     open: "/index.html",
   },
+  root: "src",
+  publicDir: "../public",
   build: {
     outDir: "../dist",
+    emptyOutDir: true,
   },
-  publicDir: "../public",
-  root: "src",
 });
